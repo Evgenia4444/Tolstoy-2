@@ -1,7 +1,7 @@
 body {
   background-color: white;
   font-family: 'Roboto' sans-serif;
- margin: 0;
+ margin: auto 0;
 width: 1280px;
 }
 
@@ -13,7 +13,6 @@ width: 1280px;
   z-index: 3;
   left: 431px;
   top: 0px;
-
     position: absolute;
 }
 
@@ -121,26 +120,33 @@ justify-content: center;
 
 
 #image1 {
-  position: absolute;
+  position: a;
   width: 64.23px;
   height: 94px;
   justify-content: center;
   display: inline-block;
+  animation-name: moving;
+
 }
 
+@@keyframes moving {
+
+}
 
 #image2 {
   position: absolute;
   width: 81px;
   height: 79.15px;
-
+  justify-content: center;
+  display: inline-block;
 }
 
 #image3 {
   position: absolute;
   width: 141.46px;
   height: 215.3px;
-
+  justify-content: center;
+  display: inline-block;
 }
 
 
@@ -148,12 +154,14 @@ justify-content: center;
   position: absolute;
   width: 220.17px;
   height: 215.15px;
-
+  justify-content: center;
+  display: inline-block;
 }
 
 #image5 {
   position: absolute;
-
+  justify-content: center;
+  display: inline-block;
 
 }
 
@@ -161,12 +169,14 @@ justify-content: center;
   position: absolute;
   width: 141.46px;
   height: 215.3px;
-
+  justify-content: center;
+  display: inline-block;
 }
 
 #image7 {
   position: absolute;
-
+  justify-content: center;
+  display: inline-block;
 
 }
 
@@ -174,17 +184,20 @@ justify-content: center;
   position: absolute;
   width: 185.57px;
   height: 215.41px;
-
+  justify-content: center;
+  display: inline-block;
 }
 
 #image9 {
   position: absolute;
-
+  justify-content: center;
+  display: inline-block;
 }
 
 #image10 {
   position: absolute;
   width: 220.17px;
   height: 215.15px;
-
+  justify-content: center;
+  display: inline-block;
 }

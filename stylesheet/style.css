@@ -13,7 +13,8 @@ width: 1280px;
   z-index: 3;
   left: 431px;
   top: 0px;
-    position: absolute;
+  position: absolute;
+  justify-content: center;
 }
 
 .item-bubble2 {
@@ -23,8 +24,8 @@ width: 1280px;
   z-index: 4;
   left: 235px;
   top: 480px;
-
-    position: absolute;
+  position: absolute;
+  justify-content: center;
 }
 
 .item-bubble3 {
@@ -34,7 +35,8 @@ width: 1280px;
   z-index: 5;
   left: 693px;
   top: 640px;
-    position: absolute;
+  position: absolute;
+  justify-content: center;
 }
 
 .item-bubble4 {
@@ -43,8 +45,9 @@ width: 1280px;
   height: 320px;
   z-index: 6;
   left: 321px;
-top: 960px;
+  top: 960px;
   position: absolute;
+  justify-content: center;
 }
 
 .item-bubble5 {
@@ -56,6 +59,7 @@ top: 960px;
   top: 1280px;
   display: inline-block;
   position: absolute;
+  justify-content: center;
 }
 
 .item-bubble6 {
@@ -67,6 +71,7 @@ top: 960px;
   top: 1600px;
     display: inline-block;
     position: absolute;
+    justify-content: center;
 }
 
 .item-bubble7 {
@@ -78,6 +83,7 @@ top: 960px;
   top: 1760px;
   display: inline-block;
   position: absolute;
+  justify-content: center;
 }
 
 
@@ -93,7 +99,7 @@ top: 960px;
 }
 
 .grid-item1 {
-
+  position: relative;
   width: 160px;
   height: 160px;
 }
@@ -118,6 +124,16 @@ justify-content: center;
   height: 335px;
 }
 
+.line1 {
+  display: flex;
+  margin-top: 1280px;
+
+}
+
+.line2 {
+  display: flex;
+  margin-top: 1000px;
+}
 
 .image1 {
   position: absolute;
@@ -126,6 +142,8 @@ justify-content: center;
   justify-content: center;
   display: inline-block;
   align-items: center;
+  left: calc(50% - 40px);
+  top: calc(50% - 40px);
 
 }
 
@@ -134,7 +152,7 @@ justify-content: center;
   height: 320px;
   top: 673px;
   left: 48px;
-  display: inline-block;
+  display: block;
   position: absolute;
   animation-name: animationwhiteladya;
   animation-duration: 4s;
@@ -155,11 +173,13 @@ justify-content: center;
 
 
 .image2 {
-  position: absolute;
+  position: relative;
   width: 81px;
   height: 79.15px;
   justify-content: center;
   display: inline-block;
+  left: calc(50% - 40px);
+  top: calc(50% - 40px);
 }
 
 .animationkoroleva {
@@ -186,7 +206,7 @@ justify-content: center;
 }
 
 #image3 {
-  position: absolute;
+  position: relative;
   width: 141.46px;
   height: 215.3px;
   justify-content: center;
@@ -200,13 +220,16 @@ justify-content: center;
   height: 215.15px;
   justify-content: center;
   display: inline-block;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
 }
 
 #image5 {
   position: absolute;
   justify-content: center;
   display: inline-block;
-
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
 }
 
 #image6 {
@@ -215,12 +238,16 @@ justify-content: center;
   height: 215.3px;
   justify-content: center;
   display: inline-block;
+  left: calc(50% - 76px);
+  top: calc(50% - 110px);
 }
 
 #image7 {
   position: absolute;
   justify-content: center;
   display: inline-block;
+  left: calc(50% - 94px);
+  top: calc(50% - 110px);
 
 }
 
@@ -230,12 +257,16 @@ justify-content: center;
   height: 215.41px;
   justify-content: center;
   display: inline-block;
+  left: calc(50% - 90px);
+  top: calc(50% - 110px);
 }
 
 #image9 {
   position: absolute;
   justify-content: center;
   display: inline-block;
+  left: calc(50% - 76px);
+  top: calc(50% - 110px);
 }
 
 #image10 {
@@ -244,4 +275,6 @@ justify-content: center;
   height: 215.15px;
   justify-content: center;
   display: inline-block;
+  left: calc(50% - 108px);
+  top: calc(50% - 110px);
 }

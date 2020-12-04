@@ -119,26 +119,70 @@ justify-content: center;
 }
 
 
-#image1 {
-  position: a;
+.image1 {
+  position: absolute;
   width: 64.23px;
   height: 94px;
   justify-content: center;
   display: inline-block;
-  animation-name: moving;
+  align-items: center;
 
 }
 
-@@keyframes moving {
-
+.animationwhiteladya {
+  width: 480px;
+  height: 320px;
+  top: 673px;
+  left: 48px;
+  display: inline-block;
+  position: absolute;
+  animation-name: animationwhiteladya;
+  animation-duration: 4s;
+  animation-play-state: paused;
 }
 
-#image2 {
+.animationwhiteladya:active, .animationwhiteladya:hover{
+  animation-play-state: running;
+}
+
+@keyframes animationwhiteladya {
+  0% {top: 673px; left: 48px;}
+  33% {top: 673px; left: 208px; }
+  66% {top: 673px; left: 368px; }
+  100% {top: 833px; left: 368px; }
+}
+
+
+
+.image2 {
   position: absolute;
   width: 81px;
   height: 79.15px;
   justify-content: center;
   display: inline-block;
+}
+
+.animationkoroleva {
+  width: 320px;
+  height: 480px;
+  top: 840px;
+  left: 1115px;
+  display: inline-block;
+  position: absolute;
+  animation-name: animationkoroleva;
+  animation-duration: 4s;
+  animation-play-state: paused;
+}
+
+.animationkoroleva:active, .animationkoroleva:hover  {
+  animation-play-state: running;
+}
+
+@keyframes animationkoroleva {
+0% {top: 840px; left: 1155px;}
+  33% {top: 680px; left: 1155px; }
+  66% {top: 522px; left: 1155px; }
+  100% {top: 520px; left: 1000px; }
 }
 
 #image3 {
